@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostIT | Create Post</title> 
+    <link rel="stylesheet" href="../CSS/createpost.css">
+</head>
+<body>
+    <h1>Welome to PostIT</h1>
+    <div class="container">
+        <div class="form">
+            <form id="postform" enctype="multipart/form-data">
+                <div>
+                    <label for="image">Upload an image</label>
+                    <input type="file" id="image" name="image" accept="image/*" required>
+                </div>
+                <div>
+                    <label for="caption">Please Enter Caption</label>
+                    <textarea name="caption" id="caption" rows="5" cols="33" required></textarea>
+                </div>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="../JS/createpost.js"></script>
+</body>
+</html>
